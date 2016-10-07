@@ -84,6 +84,9 @@ public class MapaFragment extends Fragment {
 
                     mMap.moveCamera(CameraUpdateFactory.newLatLngBounds(uniBounds,0));
                 }
+                else if(tipoMapa.equalsIgnoreCase("heat")){
+
+                }
             }
         });
 
